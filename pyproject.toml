@@ -1,0 +1,24 @@
+[project]
+name = "mlops"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Karnati vishwasai",email = "37392493+vishwak1002@users.noreply.github.com"}
+]
+package-mode = false
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "mlflow (>=2.21.3,<3.0.0)",
+    "jupyter (>=1.1.1,<2.0.0)",
+    "scikit-learn (>=1.6.1,<2.0.0)",
+    "pandas (>=2.2.3,<3.0.0)",
+    "seaborn (>=0.13.2,<0.14.0)",
+    "hyperopt (>=0.2.7,<0.3.0)",
+    "xgboost (>=3.0.0,<4.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
